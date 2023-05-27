@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main
-      className={`flex min-h-screen flex-col  p-24 ${inter.className}`}
+      className={`flex min-h-screen flex-col px-2 py-10 ${inter.className}`}
     >
       <h1 className='text-5xl font-bold text-blue-600 self-center mb-10'>Temas por materia</h1>
       <Link href="/ciencias" className="hover:text-blue-600 ">Ciencias Primero</Link>
